@@ -140,6 +140,24 @@
     letter-spacing: -0.02em;
   }
 
+  /* Tailwind's preflight resets <button> to cursor: default, which makes
+     every clickable button (view details, modal close, tech stack nodes,
+     mobile menu toggle, etc.) look non-interactive. Force a pointer cursor
+     on every interactive element site-wide instead of patching each one. */
+  button:not(:disabled),
+  [role="button"]:not(:disabled),
+  a,
+  summary,
+  select,
+  label[for] {
+    cursor: pointer;
+  }
+
+  button:disabled,
+  [role="button"][aria-disabled="true"] {
+    cursor: not-allowed;
+  }
+
   ::selection {
     background: var(--gold);
     color: var(--gold-foreground);
