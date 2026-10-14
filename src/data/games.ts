@@ -59,9 +59,10 @@ export const games: GameDetail[] = [
       "Players must traverse platforms by jumping over obstacles, defeating enemies, and more.",
     meta: [
       { label: "Engine", value: "Godot" },
-      { label: "Platform", value: "Windows 10/11, Linux, MacOS" },
+      { label: "Platform", value: "Windows 10/11, Linux, MacOS, Android" },
       { label: "Release", value: "To be announced" },
     ],
     image: "/games/super-pixel-bros.png",
+    link: "https://superpixelbros.vercel.app/",
   },
 ];
