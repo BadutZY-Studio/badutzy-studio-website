@@ -49,4 +49,19 @@ export const games: GameDetail[] = [
     ],
     image: "/games/twin-parkour.png",
   },
+  {
+    id: 2,
+    title: "Super Pixel Bros",
+    status: "in-development",
+    tagline: "2D Side-scrolling Platformer",
+    blurb: "Platformer.",
+    summary:
+      "Players must traverse platforms by jumping over obstacles, defeating enemies, and more.",
+    meta: [
+      { label: "Engine", value: "Godot" },
+      { label: "Platform", value: "Windows 10/11, Linux, MacOS" },
+      { label: "Release", value: "To be announced" },
+    ],
+    image: "/games/super-pixel-bros.png",
+  },
 ];
