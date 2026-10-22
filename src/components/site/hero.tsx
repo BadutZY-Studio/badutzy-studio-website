@@ -6,7 +6,7 @@ import { CountUp, EASE, Magnetic } from "./primitives";
 const stats = [
   { k: "Total Game", v: 2, suffix: "" },
   { k: "Status", v: 0, suffix: "", display: "Active" },
-  { k: "Engine", v: 0, suffix: "", display: "Unity & Java" },
+  { k: "Engine", v: 0, suffix: "", display: "Unity, Java & Godot" },
 ];
 
 export function Hero() {

@@ -2,6 +2,7 @@ import { Fragment, useEffect, useState, type ComponentType } from "react";
 import { AnimatePresence, motion } from "motion/react";
 import {
   ArrowUpRight,
+  Blocks,
   Coffee,
   Compass,
   FlaskConical,
@@ -169,6 +170,68 @@ function GradleLogo({ className }: { className?: string }) {
         fill="#4fd1c5"
         d="M99.5 112.5H85.3c-.5 0-.8-.2-1.1-.5-3.2-4-6.7-7.7-10.9-10.6-2.1-1.5-4.3-2.8-6.8-3.5-2-.6-4.1-.9-6.2-.4-2.1.5-3.9 1.7-5.4 3.2-1.9 1.9-3.2 4.2-4.2 6.7-.6 1.5-1.1 3-1.6 4.5-.1.2-.1.4-.2.6H37.5c-.1-.6-.2-1.2-.3-1.9-.4-2-1-4-2-5.8-.7-1.4-1.6-2.6-2.8-3.6-1.3-1.1-2.8-1.7-4.5-1.7-1.3 0-2.4.5-3.5 1.2-1.5 1-2.7 2.3-3.6 3.8-1.4 2.2-2.2 4.7-2.9 7.2-.1.2-.1.5-.2.8H2.8c-.1-.7-.2-1.5-.3-2.2-.5-4.7-.8-9.4-.7-14.1.1-5.5.7-10.9 2-16.3C5 75 6.7 70.4 9.3 66.2c3.6-5.7 8.4-9.8 14.7-12.3.2-.1.3-.1.5-.2h.2l.3.6c1.8 4 3.7 7.9 6 11.5 1.4 2.3 3.4 4 5.9 4.8 2.7.9 5.3.6 7.9-.5 2.3-1 4.2-2.5 6-4.2 2.1-2 3.8-4.2 5.5-6.6.1-.1.1-.2.1-.3-.2.2-.4.4-.7.6-2.5 2.5-5.2 4.7-8.3 6.4-1.5.9-3.2 1.6-4.9 1.9-2.5.5-4.8.2-6.8-1.6-.8-.7-1.4-1.5-2-2.3-3-4.7-5.6-9.6-8-14.6-.5-1-.9-2-1-3.2-.2-1.7.3-3.2 1.5-4.5.9-.9 1.9-1.6 3.1-2.2 2.2-1.1 4.5-1.9 6.8-2.7 3.4-1.1 6.9-1.9 10.5-2.4 4.1-.6 8.3-.7 12.5-.2 9 .9 17 4.2 24.3 9.5 2.5 1.8 5.1 3.3 8.1 4.2 11.9 3.8 21.4-4.4 23.6-12.8.6-2.3.8-4.6-.1-6.8-1.3-3.4-3.6-6-7.3-7-2.8-.7-5.5-.4-8.1 1-.5.3-1 .5-1.5.7-1.2.4-2 .1-2.6-1-.8-1.4-1.4-2.8-2.1-4.3-.3-.6-.2-1.1.1-1.6.3-.7.8-1.2 1.4-1.7 1.5-1.2 3.3-2 5.3-2.4 4.9-1.1 9.5-.4 13.9 1.8 3.5 1.7 6.2 4.3 8.2 7.7 1.9 3.2 3.2 6.6 3.8 10.3.4 2.9.4 5.7.1 8.6-.6 5-2 9.7-4 14.3-2.6 6-5.6 11.8-9.3 17.2-1.8 2.6-3.7 5.1-5.5 7.6-1.9 2.7-3.8 5.4-5.2 8.4-1.9 3.9-3 7.9-3.4 12.2-.3 3.7-.1 7.3.5 11 .1.6.2 1 .2 1.4zm-8.2-51.4c.3 2.4-.5 4-2.7 4.9-1.6.6-3.6.1-4.6-1.3-1.6-2.1-1.1-4 .7-5.8-1.8-.6-3.6-1.2-5.3-1.7-.4 1-.6 2.5-.5 3.7.2 2.4 1.1 4.4 3.1 5.7 2.1 1.4 4.5 2 7 1.5 2.6-.5 4.6-2 6-4.2.3-.4.5-.8.5-1.4-1.4-.4-2.8-.9-4.2-1.4z"
       />
+    </svg>
+  );
+}
+
+/** Official Godot Engine logo mark. */
+function GodotLogo({ className }: { className?: string }) {
+  return (
+    <svg
+      xmlns="http://www.w3.org/2000/svg"
+      viewBox="0 0 128 128"
+      className={className}
+      aria-hidden="true"
+    >
+      <path
+        fill="#fff"
+        d="M114.906 84.145s-.172-1.04-.27-1.028l-18.823 1.817a3.062 3.062 0 00-2.77 2.84l-.516 7.413-14.566 1.04-.988-6.72a3.089 3.089 0 00-3.04-2.62H54.067a3.089 3.089 0 00-3.039 2.62l-.988 6.72-14.566-1.04-.516-7.414a3.058 3.058 0 00-2.77-2.84l-18.835-1.816c-.094-.012-.168 1.028-.266 1.028l-.024 4.074 15.954 2.574.52 7.477a3.084 3.084 0 002.843 2.847l20.059 1.434c.078.004.152.008.226.008a3.087 3.087 0 003.031-2.621l1.02-6.915h14.57l1.02 6.915a3.088 3.088 0 003.254 2.613l20.062-1.434a3.084 3.084 0 002.844-2.847l.52-7.477 15.945-2.586z"
+      />
+      <path
+        fill="#478cbf"
+        d="M13.086 53.422v30.723c.059 0 .113.003.168.007L32.09 85.97a2.027 2.027 0 011.828 1.875l.582 8.316 16.426 1.172 1.133-7.672a2.03 2.03 0 012.007-1.734h19.868a2.03 2.03 0 012.007 1.734l1.133 7.672 16.43-1.172.578-8.316a2.027 2.027 0 011.828-1.875l18.828-1.817c.055-.004.11-.007.168-.007V81.69h.008V53.42c2.652-3.335 5.16-7.019 7.086-10.116-2.941-5.008-6.543-9.48-10.395-13.625a101.543 101.543 0 00-10.316 6.004c-1.64-1.633-3.484-2.965-5.3-4.36-1.782-1.43-3.79-2.48-5.696-3.703.566-4.223.848-8.379.96-12.719-4.913-2.476-10.155-4.113-15.456-5.293-2.117 3.559-4.055 7.41-5.738 11.176-2-.332-4.008-.457-6.02-.48V20.3c-.016 0-.027.004-.039.004s-.023-.004-.04-.004v.004c-2.01.023-4.019.148-6.019.48-1.683-3.765-3.62-7.617-5.738-11.176-5.3 1.18-10.543 2.817-15.457 5.293.113 4.34.395 8.496.961 12.72-1.906 1.222-3.914 2.273-5.695 3.702-1.813 1.395-3.66 2.727-5.301 4.36a101.543 101.543 0 00-10.316-6.004C12.543 33.824 8.94 38.297 6 43.305c2.313 3.629 4.793 7.273 7.086 10.117z"
+      />
+      <path
+        fill="#478cbf"
+        d="M98.008 89.84l-.582 8.36a2.024 2.024 0 01-1.88 1.878l-20.062 1.434c-.046.004-.097.004-.144.004-.996 0-1.86-.73-2.004-1.73l-1.152-7.806H55.816l-1.152 7.805a2.026 2.026 0 01-2.148 1.727l-20.063-1.434a2.024 2.024 0 01-1.879-1.879l-.582-8.36-16.937-1.632c.008 1.82.03 3.816.03 4.211 0 17.887 22.692 26.484 50.88 26.582h.07c28.188-.098 50.871-8.695 50.871-26.582 0-.402.024-2.39.031-4.211z"
+      />
+      <path
+        fill="#fff"
+        d="M48.652 65.895c0 6.27-5.082 11.351-11.351 11.351-6.266 0-11.348-5.082-11.348-11.351 0-6.266 5.082-11.344 11.348-11.344 6.27 0 11.351 5.078 11.351 11.344"
+      />
+      <path
+        fill="#414042"
+        d="M45.922 66.566a7.531 7.531 0 01-7.535 7.532 7.534 7.534 0 01-7.535-7.532 7.534 7.534 0 017.535-7.53 7.531 7.531 0 017.535 7.53"
+      />
+      <path
+        fill="#fff"
+        d="M64 78.277c-2.02 0-3.652-1.488-3.652-3.32v-10.45c0-1.831 1.632-3.32 3.652-3.32 2.016 0 3.656 1.489 3.656 3.32v10.45c0 1.832-1.64 3.32-3.656 3.32m15.348-12.382c0 6.27 5.082 11.351 11.351 11.351 6.266 0 11.348-5.082 11.348-11.351 0-6.266-5.082-11.344-11.348-11.344-6.27 0-11.351 5.078-11.351 11.344"
+      />
+      <path
+        fill="#414042"
+        d="M82.078 66.566a7.53 7.53 0 007.531 7.532 7.531 7.531 0 100-15.063 7.53 7.53 0 00-7.53 7.531"
+      />
+    </svg>
+  );
+}
+
+/** GDScript mark: Godot-blue code brackets with a slash. */
+function GDScriptLogo({ className }: { className?: string }) {
+  return (
+    <svg
+      xmlns="http://www.w3.org/2000/svg"
+      viewBox="0 0 128 128"
+      className={className}
+      aria-hidden="true"
+      fill="none"
+      stroke="#6db3f2"
+      strokeWidth="11"
+      strokeLinecap="round"
+      strokeLinejoin="round"
+    >
+      <path d="M42 36 14 64l28 28" />
+      <path d="M86 36l28 28-28 28" />
+      <path d="M73 26 55 102" stroke="#478CBF" />
     </svg>
   );
 }
@@ -380,6 +443,19 @@ function GameModal({ game, onClose }: { game: GameDetail | null; onClose: () => 
   );
 }
 
+// Maps the "Engine" value in a game's meta (src/data/games.ts) to its logo.
+const engineLogos: Record<string, ComponentType<{ className?: string }>> = {
+  Unity: UnityLogo,
+  Java: JavaLogo,
+  Godot: GodotLogo,
+};
+
+function getEngine(game: GameDetail) {
+  const name = game.meta.find((m) => m.label === "Engine")?.value;
+  const Logo = name ? engineLogos[name] : undefined;
+  return name && Logo ? { name, Logo } : null;
+}
+
 export function Games() {
   const [active, setActive] = useState<GameDetail | null>(null);
 
@@ -428,6 +504,22 @@ export function Games() {
                   <span className="h-1.5 w-1.5 rounded-full bg-gold" />
                   {statusLabel[g.status]}
                 </span>
+                {(() => {
+                  const engine = getEngine(g);
+                  if (!engine) return null;
+                  return (
+                    <motion.span
+                      title={`Built with ${engine.name}`}
+                      role="img"
+                      aria-label={`Built with ${engine.name}`}
+                      whileHover={{ scale: 1.12, y: -2 }}
+                      transition={{ type: "spring", stiffness: 320, damping: 20 }}
+                      className="absolute bottom-3 right-3 grid h-9 w-9 place-items-center rounded-xl border border-border bg-background/85 p-1.5 shadow-lg shadow-black/30 backdrop-blur-sm"
+                    >
+                      <engine.Logo className="h-full w-full" />
+                    </motion.span>
+                  );
+                })()}
               </div>
               <div className="flex flex-1 flex-col p-6">
                 <h3 className="font-display text-base font-semibold">{g.title}</h3>
@@ -592,6 +684,30 @@ const stackGroups: StackGroup[] = [
       },
     ],
   },
+  {
+    id: "godot",
+    title: "Godot Toolchain",
+    subtitle: "Used for Godot-built titles like Super Pixel Bros.",
+    icon: Blocks,
+    tools: [
+      {
+        name: "Godot",
+        icon: GodotLogo,
+        category: "Game Engine",
+        level: "Primary",
+        color: "#478CBF",
+        body: "A free, open-source game engine with a lightweight scene-and-node architecture, used for 2D titles and exported to Windows, Linux, macOS, and Android.",
+      },
+      {
+        name: "GDScript",
+        icon: GDScriptLogo,
+        category: "Scripting Language",
+        level: "Primary",
+        color: "#6db3f2",
+        body: "A Python-like scripting language built specifically for Godot, used to write gameplay logic, signals, and UI behavior with minimal boilerplate.",
+      },
+    ],
+  },
 ];
 
 const allTools = stackGroups.flatMap((g) => g.tools);
@@ -610,7 +726,7 @@ const stackReasons = [
   {
     icon: Monitor,
     title: "Windows-First",
-    body: "Every build targets Windows 10/11.",
+    body: "Every build targets Windows 10/11, with Godot titles also reaching Linux, macOS, and Android.",
   },
   {
     icon: Rocket,
@@ -684,13 +800,21 @@ export function TechStack() {
       <SectionHeading
         eyebrow="Tech Stack"
         title="Built entirely for game development"
-        description="Two focused toolchains, each purpose-built for shipping a specific kind of game to Windows 10/11."
+        description="Three focused toolchains, each purpose-built for shipping a specific kind of game, from Windows-first builds to cross-platform releases."
       />
 
-      {/* Two independent toolchains - each engine paired only with the tools it actually depends on */}
-      <div className="mx-auto mt-14 grid max-w-4xl gap-5 sm:grid-cols-2">
+      {/* Three independent toolchains - each engine paired only with the tools it actually depends on */}
+      <div className="mx-auto mt-14 grid max-w-5xl gap-5 sm:grid-cols-2 lg:grid-cols-3">
         {stackGroups.map((group, gi) => (
-          <Reveal key={group.id} delay={gi * 0.08}>
+          <Reveal
+            key={group.id}
+            delay={gi * 0.08}
+            className={
+              gi === stackGroups.length - 1 && stackGroups.length % 2 === 1
+                ? "sm:col-span-2 lg:col-span-1"
+                : ""
+            }
+          >
             <div className="h-full rounded-2xl border border-border bg-surface/60 p-6 sm:p-7">
               <div className="flex items-center gap-2 text-gold">
                 <group.icon className="h-4 w-4 shrink-0" />
@@ -728,7 +852,7 @@ export function TechStack() {
       </div>
 
       {/* Detail panel: crossfades to describe whichever tool is selected */}
-      <Reveal delay={0.16} className="mx-auto mt-6 max-w-4xl">
+      <Reveal delay={0.16} className="mx-auto mt-6 max-w-5xl">
         <AnimatePresence mode="wait">
           <motion.div
             key={tool.name}
@@ -774,7 +898,7 @@ export function TechStack() {
       </Reveal>
 
       {/* Supporting reasons: short, credible payoffs of this stack */}
-      <div className="mx-auto mt-8 grid max-w-4xl gap-4 sm:grid-cols-2 lg:grid-cols-4">
+      <div className="mx-auto mt-8 grid max-w-5xl gap-4 sm:grid-cols-2 lg:grid-cols-4">
         {stackReasons.map((r, i) => (
           <Reveal key={r.title} delay={0.06 * i}>
             <MagicCard className="flex h-full flex-col gap-3 rounded-xl border border-border bg-surface p-5">

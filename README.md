@@ -146,7 +146,7 @@ The website is a single-page application composed of the following sections, in 
 | Vision and Mission | The studio's long-term direction and guiding principles |
 | Games | Catalogue of current and upcoming game projects |
 | Process | The five-stage solo development pipeline, from concept to release |
-| Tech Stack | Tools and technologies used across the studio's Unity and Java toolchains |
+| Tech Stack | Tools and technologies used across the studio's Unity, Java, and Godot toolchains |
 | Founder | Profile of BadutZY, the studio's founder and sole developer |
 | Footer | Studio branding and links to official social and community channels |
 
